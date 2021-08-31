@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="heading">Welcome to bingo</h1>
+    <button onClick="setUpGame()">play</button>
+
+    <div class="playing-board">
+        <div class="board-container">
+            <h3>computer</h3>
+            <div class="status-box computer-status">
+                <div>B</div>
+                <div>I</div>
+                <div>N</div>
+                <div>G</div>
+                <div>O</div>
+            </div>
+            <div class="computer-board board"></div>
+        </div>
+        <div class="board-container">
+            <h3>human</h3>
+            <div class="status-box human-status">
+                <div>B</div>
+                <div>I</div>
+                <div>N</div>
+                <div>G</div>
+                <div>O</div>
+            </div>
+            <div class="human-board board"></div>
+        </div>
+    </div>
+
+    <template class="template">
+        <h3 class="message"> </h3>
+        <div class="buttons">
+            hello
+            <button class="play-again">Play Again</button>
+            <button class="facebook"><a href="https://www.facebook.com" target="_blank">facebook</a></button>
+        </template>
+    <script src="index.js"></script>
+    <script src="play.js"></script>
+</body>
+
+</html>
